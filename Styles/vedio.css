@@ -142,5 +142,20 @@ align-items: center;
     opacity: 1;
 }
 
+@media all and (max-width: 800px) {
+    
+    .vedio-perview-grid{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (max-width: 600px) {
+    
+    .vedio-perview-grid{
+    grid-template-columns: 1fr;
+    }
+
+}
+
 
 
