@@ -55,11 +55,6 @@ align-items: center;
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.05);
     width: 0;
 }
-@media all and (max-width: 673px) {
-    .search-bar{ 
-        opacity: 0;
-    }
-}
 
 .search-bar::placeholder{
     font-family: roboto,arial;
@@ -193,3 +188,16 @@ opacity: 1;
     border-radius: 10px;
 
 }
+
+@media all and (max-width: 673px) {
+    .search-bar{ 
+        opacity: 0;
+    }
+
+    .search-button{
+    border: none;
+    height: 50px;
+    width: 77px;
+    }
+}
+
